@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import type { Ref } from 'vue'
 
 defineProps<{
-  isVisible: Ref<boolean>
+  isVisible: boolean
   message: string
 }>()
 </script>

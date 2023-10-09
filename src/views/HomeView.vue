@@ -2,7 +2,7 @@
 import BaseLayout from '@/shared/ui/BaseLayout/BaseLayout.vue'
 import ProductCard from '@/shared/ui/ProductCard/ProductCard.vue'
 import LogoBucket from '@/shared/icons/LogoBucket.vue'
-import { Product, useProduct } from '@/shared/composables/useProducts'
+import { type Product, useProduct } from '@/shared/composables/useProducts'
 import { ref } from 'vue'
 import { useBucketStore } from '@/stores/bucket'
 import NotificationMessage from '@/shared/ui/NotificationMessage.vue'
