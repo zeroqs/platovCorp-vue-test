@@ -11,7 +11,7 @@ import NavigateLinks from '@/shared/ui/NavigateLinks/NavigateLinks.vue'
         <LogoIcon />
         <NavigateLinks>
           <RouterLink to="/">Главная</RouterLink>
-          <RouterLink to="/about">Корзина</RouterLink>
+          <RouterLink to="/bucket">Корзина</RouterLink>
         </NavigateLinks>
       </slot>
     </header>

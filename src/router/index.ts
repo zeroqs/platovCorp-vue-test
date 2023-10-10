@@ -10,8 +10,8 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/bucket',
+      name: 'bucket',
       component: () => import('../views/BucketView.vue')
     }
   ]
